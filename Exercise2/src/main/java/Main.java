@@ -4,6 +4,8 @@ public class Main {
 
         GenericMethod.printInfo(person, "Hello", 6);
 
+        GenericMethod.printInfo("Labubu", person, 6.9);
+
 
 
 
