@@ -9,4 +9,9 @@ public class Person {
         this.surname = surname;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "This is a person called: "+this.name + " " + this.surname + ". And his/her age is: "+this.age;
+    }
 }
