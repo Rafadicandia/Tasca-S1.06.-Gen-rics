@@ -1,14 +1,28 @@
 public class NoGenericMethods {
 
-    private Object objeto1;
-    private Object objeto2;
-    private Object objeto3;
+    private Object object1;
+    private Object object2;
+    private Object object3;
 
 
     public NoGenericMethods(Object objA, Object objB, Object objC) {
-        this.objeto1 = objA;
-        this.objeto2 = objB;
-        this.objeto3 = objC;
+        this.object1 = objA;
+        this.object2 = objB;
+        this.object3 = objC;
     }
+
+    public Object getObject1(){
+        return object1;
+    }
+
+    public Object getObject2(){
+        return object2;
+    }
+
+    public Object getObject3(){
+        return object3;
+    }
+
+    
 
 }
