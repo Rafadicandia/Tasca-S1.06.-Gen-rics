@@ -2,16 +2,24 @@ public class Main {
 
     public static void main(String[] args) {
 
-        NoGenericMethods test = new NoGenericMethods("hello", 0, 9.8 );
-        NoGenericMethods test2 = new NoGenericMethods(9, "adios", 'C' );
+        String A = "Hello";
+        String B = "Goodbye";
+        String C = "Hello Again";
 
-        System.out.println(test.getObject1().getClass());
-        System.out.println(test.getObject2().getClass());
-        System.out.println(test.getObject3().getClass());
+        NoGenericMethods test = new NoGenericMethods(A, B, C);
+        NoGenericMethods test2 = new NoGenericMethods(B,C, A);
 
-        System.out.println(test2.getObject1().getClass());
-        System.out.println(test2.getObject2().getClass());
-        System.out.println(test2.getObject3().getClass());
+        System.out.println(test.getObject1());
+        System.out.println(test.getObject2());
+        System.out.println(test.getObject3());
+
+        System.out.println(test2.getObject1());
+        System.out.println(test2.getObject2());
+        System.out.println(test2.getObject3());
+
+
+
+
 
 
 
