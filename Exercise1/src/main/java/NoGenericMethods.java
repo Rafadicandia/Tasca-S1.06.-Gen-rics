@@ -23,6 +23,6 @@ public class NoGenericMethods {
         return object3;
     }
 
-    
+
 
 }
