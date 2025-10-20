@@ -1,6 +1,20 @@
 
 ## 📄 Description - Exercise Statement
 
+
+
+## **Exercise 1**
+Create a class called **NoGenericMethods** that stores three arguments of the same type, along with methods to store and retrieve these objects and a constructor to initialize the three. Check that the arguments can be placed in any position in the call to the constructor.
+
+***
+
+## **Exercise 2**
+Create a class called **Person** with the attributes name, surname, and age. Then create a class called **GenericMethods** with a generic method that accepts three arguments of a generic type. This method should only print the arguments it has received to the screen. In the `main()` of the main class, call the generic method with different types of parameters.
+
+**Example**: an object of the Person class, a String, and a primitive type.
+
+This way you have verified that any type of parameter can be passed to it and in any order.
+
 ## 💻 Used Technologies
 
 **Java**: 24 (OpenJDK)
@@ -22,7 +36,7 @@
 - Clone the Repository:
 
 ```bash
-git clone https://github.com/Rafadicandia/
+git clone https://github.com/Rafadicandia/Tasca-S1.06.-Gen-rics.git
 ```
 
 - IDE Configuration:
